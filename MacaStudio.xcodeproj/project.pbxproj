@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A6F41E2B189FB20017B59F /* MacaStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F41D2B189FB20017B59F /* MacaStudioApp.swift */; };
+		40A6F4202B189FB20017B59F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F41F2B189FB20017B59F /* ContentView.swift */; };
+		40A6F4222B189FB30017B59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F4212B189FB30017B59F /* Assets.xcassets */; };
+		40A6F4252B189FB30017B59F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F4242B189FB30017B59F /* Preview Assets.xcassets */; };
+		40A6F4302B189FB30017B59F /* MacaStudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F42F2B189FB30017B59F /* MacaStudioTests.swift */; };
+		40A6F43A2B189FB30017B59F /* MacaStudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F4392B189FB30017B59F /* MacaStudioUITests.swift */; };
+		40A6F43C2B189FB30017B59F /* MacaStudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F43B2B189FB30017B59F /* MacaStudioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A6F42C2B189FB30017B59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A6F4122B189FB20017B59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A6F4192B189FB20017B59F;
+			remoteInfo = MacaStudio;
+		};
+		40A6F4362B189FB30017B59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A6F4122B189FB20017B59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A6F4192B189FB20017B59F;
+			remoteInfo = MacaStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40A6F41A2B189FB20017B59F /* MacaStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacaStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A6F41D2B189FB20017B59F /* MacaStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacaStudioApp.swift; sourceTree = "<group>"; };
+		40A6F41F2B189FB20017B59F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40A6F4212B189FB30017B59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40A6F4242B189FB30017B59F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40A6F4262B189FB30017B59F /* MacaStudio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacaStudio.entitlements; sourceTree = "<group>"; };
+		40A6F42B2B189FB30017B59F /* MacaStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacaStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A6F42F2B189FB30017B59F /* MacaStudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacaStudioTests.swift; sourceTree = "<group>"; };
+		40A6F4352B189FB30017B59F /* MacaStudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacaStudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A6F4392B189FB30017B59F /* MacaStudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacaStudioUITests.swift; sourceTree = "<group>"; };
+		40A6F43B2B189FB30017B59F /* MacaStudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacaStudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A6F4172B189FB20017B59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4282B189FB30017B59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4322B189FB30017B59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A6F4112B189FB20017B59F = {
+			isa = PBXGroup;
+			children = (
+				40A6F41C2B189FB20017B59F /* MacaStudio */,
+				40A6F42E2B189FB30017B59F /* MacaStudioTests */,
+				40A6F4382B189FB30017B59F /* MacaStudioUITests */,
+				40A6F41B2B189FB20017B59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A6F41B2B189FB20017B59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A6F41A2B189FB20017B59F /* MacaStudio.app */,
+				40A6F42B2B189FB30017B59F /* MacaStudioTests.xctest */,
+				40A6F4352B189FB30017B59F /* MacaStudioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A6F41C2B189FB20017B59F /* MacaStudio */ = {
+			isa = PBXGroup;
+			children = (
+				40A6F41D2B189FB20017B59F /* MacaStudioApp.swift */,
+				40A6F41F2B189FB20017B59F /* ContentView.swift */,
+				40A6F4212B189FB30017B59F /* Assets.xcassets */,
+				40A6F4262B189FB30017B59F /* MacaStudio.entitlements */,
+				40A6F4232B189FB30017B59F /* Preview Content */,
+			);
+			path = MacaStudio;
+			sourceTree = "<group>";
+		};
+		40A6F4232B189FB30017B59F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40A6F4242B189FB30017B59F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40A6F42E2B189FB30017B59F /* MacaStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A6F42F2B189FB30017B59F /* MacaStudioTests.swift */,
+			);
+			path = MacaStudioTests;
+			sourceTree = "<group>";
+		};
+		40A6F4382B189FB30017B59F /* MacaStudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40A6F4392B189FB30017B59F /* MacaStudioUITests.swift */,
+				40A6F43B2B189FB30017B59F /* MacaStudioUITestsLaunchTests.swift */,
+			);
+			path = MacaStudioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A6F4192B189FB20017B59F /* MacaStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A6F43F2B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudio" */;
+			buildPhases = (
+				40A6F4162B189FB20017B59F /* Sources */,
+				40A6F4172B189FB20017B59F /* Frameworks */,
+				40A6F4182B189FB20017B59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacaStudio;
+			productName = MacaStudio;
+			productReference = 40A6F41A2B189FB20017B59F /* MacaStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A6F42A2B189FB30017B59F /* MacaStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A6F4422B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudioTests" */;
+			buildPhases = (
+				40A6F4272B189FB30017B59F /* Sources */,
+				40A6F4282B189FB30017B59F /* Frameworks */,
+				40A6F4292B189FB30017B59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A6F42D2B189FB30017B59F /* PBXTargetDependency */,
+			);
+			name = MacaStudioTests;
+			productName = MacaStudioTests;
+			productReference = 40A6F42B2B189FB30017B59F /* MacaStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40A6F4342B189FB30017B59F /* MacaStudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A6F4452B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudioUITests" */;
+			buildPhases = (
+				40A6F4312B189FB30017B59F /* Sources */,
+				40A6F4322B189FB30017B59F /* Frameworks */,
+				40A6F4332B189FB30017B59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A6F4372B189FB30017B59F /* PBXTargetDependency */,
+			);
+			name = MacaStudioUITests;
+			productName = MacaStudioUITests;
+			productReference = 40A6F4352B189FB30017B59F /* MacaStudioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A6F4122B189FB20017B59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					40A6F4192B189FB20017B59F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					40A6F42A2B189FB30017B59F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 40A6F4192B189FB20017B59F;
+					};
+					40A6F4342B189FB30017B59F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 40A6F4192B189FB20017B59F;
+					};
+				};
+			};
+			buildConfigurationList = 40A6F4152B189FB20017B59F /* Build configuration list for PBXProject "MacaStudio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A6F4112B189FB20017B59F;
+			productRefGroup = 40A6F41B2B189FB20017B59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A6F4192B189FB20017B59F /* MacaStudio */,
+				40A6F42A2B189FB30017B59F /* MacaStudioTests */,
+				40A6F4342B189FB30017B59F /* MacaStudioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A6F4182B189FB20017B59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6F4252B189FB30017B59F /* Preview Assets.xcassets in Resources */,
+				40A6F4222B189FB30017B59F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4292B189FB30017B59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4332B189FB30017B59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A6F4162B189FB20017B59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6F4202B189FB20017B59F /* ContentView.swift in Sources */,
+				40A6F41E2B189FB20017B59F /* MacaStudioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4272B189FB30017B59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6F4302B189FB30017B59F /* MacaStudioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6F4312B189FB30017B59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6F43C2B189FB30017B59F /* MacaStudioUITestsLaunchTests.swift in Sources */,
+				40A6F43A2B189FB30017B59F /* MacaStudioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A6F42D2B189FB30017B59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A6F4192B189FB20017B59F /* MacaStudio */;
+			targetProxy = 40A6F42C2B189FB30017B59F /* PBXContainerItemProxy */;
+		};
+		40A6F4372B189FB30017B59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A6F4192B189FB20017B59F /* MacaStudio */;
+			targetProxy = 40A6F4362B189FB30017B59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40A6F43D2B189FB30017B59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40A6F43E2B189FB30017B59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40A6F4402B189FB30017B59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacaStudio/MacaStudio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacaStudio/Preview Content\"";
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40A6F4412B189FB30017B59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacaStudio/MacaStudio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacaStudio/Preview Content\"";
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40A6F4432B189FB30017B59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacaStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacaStudio";
+			};
+			name = Debug;
+		};
+		40A6F4442B189FB30017B59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacaStudio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacaStudio";
+			};
+			name = Release;
+		};
+		40A6F4462B189FB30017B59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacaStudio;
+			};
+			name = Debug;
+		};
+		40A6F4472B189FB30017B59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PDG3MKYPMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.donaldfilimon.MacaStudioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacaStudio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A6F4152B189FB20017B59F /* Build configuration list for PBXProject "MacaStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6F43D2B189FB30017B59F /* Debug */,
+				40A6F43E2B189FB30017B59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A6F43F2B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6F4402B189FB30017B59F /* Debug */,
+				40A6F4412B189FB30017B59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A6F4422B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6F4432B189FB30017B59F /* Debug */,
+				40A6F4442B189FB30017B59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A6F4452B189FB30017B59F /* Build configuration list for PBXNativeTarget "MacaStudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6F4462B189FB30017B59F /* Debug */,
+				40A6F4472B189FB30017B59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A6F4122B189FB20017B59F /* Project object */;
+}
